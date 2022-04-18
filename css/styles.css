@@ -75,7 +75,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid var(--header-border-color);
+  border: 0px 1px 0px 0px solid var(--header-border-color);
 }
 
 .header .container {
@@ -189,10 +189,6 @@ img {
   cursor: pointer;
   margin: 0 auto;
   padding: 10px 32px;
-
-  /* width: 200px;
-  height: 50px;
-   */
 }
 
 /* ------------------ABOUT------------------ */
