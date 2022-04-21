@@ -28,6 +28,8 @@
   --portf-bth-hover-color: #ffffff;
   --portf-bth-bkgd-hover-color: #2196f3;
   --portf-border-color: #eeeeee;
+  --portf-select-bth-color:#2196F3;
+  --portf-select-bth-text:#FFFFFF;;
 }
 
 body {
@@ -76,8 +78,10 @@ img {
 /* ------------------HEADER------------------ */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
+  border-bottom-style:solid;
+  border-color: #ECECEC;
 }
 
 .header .container {
@@ -87,6 +91,7 @@ img {
 
 .header-list {
   display: flex;
+  
 }
 
 .header-logo {
@@ -97,6 +102,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--first-logo-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-logo-color {
@@ -108,6 +115,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link-studio {
@@ -115,6 +124,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-sec-link-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-item:not(:last-child) {
@@ -143,6 +154,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-mail-tel-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .header-link:hover,
@@ -285,6 +298,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
+  padding-bottom: 30px;
 }
 
 .team-img {
@@ -299,6 +313,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .team-bottom-text {
@@ -307,7 +322,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-bottom-text-color);
-  margin-bottom: 30px;
 }
 
 /* ------------------FOOTER------------------ */
@@ -340,10 +354,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-address-color);
-}
-
-.footer-item {
-  margin-bottom: 9px;
 }
 
 .footer-mail {
@@ -382,6 +392,11 @@ img {
   margin-bottom: 50px;
 }
 
+
+.button-item{
+  margin-right: 8px;
+}
+
 .button-item-btn {
   cursor: pointer;
   background: var(--portf-btn-bkgd-color);
@@ -394,8 +409,13 @@ img {
   color: var(--portf-btn-color);
   border: 0;
   border-radius: 4px;
-  margin-right: 8px;
+  
   padding: 6px 22px;
+}
+.selected{
+background-color: var(--portf-select-bth-color);
+color: var(--portf-select-bth-text);
+
 }
 
 .button-item-btn:hover,
@@ -420,6 +440,7 @@ img {
 .portf-border {
   border: 1px solid var(--portf-border-color);
   border-top-color: transparent;
+  padding: 20px 24px;
 }
 
 .portfolio-list-title {
@@ -430,8 +451,8 @@ img {
   letter-spacing: 0.06em;
   color: var(--main-title-color);
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-top: 20px;
+  /* margin-left: 24px;
+  margin-top: 20px; */
 }
 
 .portfolio-buttom-text {
@@ -439,6 +460,6 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-bottom-text-color);
-  margin-bottom: 20px;
-  margin-left: 24px;
+  /* margin-bottom: 20px;
+  margin-left: 24px; */
 }
