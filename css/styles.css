@@ -11,6 +11,7 @@
   --header-sec-link-color: #2196f3;
   --header-mail-tel-color: #757575;
   --header-hover-color: #2196f3;
+  --header-border-color: #ECECEC;
   --hero-bkgd-color: #2f303a;
   --hero-btn-color: #ffffff;
   --hero-btn-bkgd-color: #2196f3;
@@ -82,7 +83,7 @@ img {
   /* padding-top: 24px;
   padding-bottom: 25px; */
   border-bottom-style:solid;
-  border-color: #ECECEC;
+  border-color: var(--header-border-color);
 }
 
 .header .container {
